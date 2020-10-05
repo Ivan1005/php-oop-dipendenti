@@ -1,6 +1,7 @@
 <?php
-
+require_once __DIR__.'/../traits/Show.php';
 class Dipendenti {
+    use ShowGet;
     protected $codiceFiscale;
     public $nome;
     public $cognome;
